@@ -8,28 +8,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/immutable/assets/__layout-dfd7b8ba.css">
-	<link rel="stylesheet" href="/_app/immutable/assets/index-7d0040fd.css">
 	<link rel="modulepreload" href="/_app/immutable/start-3194b8dc.js">
 	<link rel="modulepreload" href="/_app/immutable/chunks/index-ed81f732.js">
 	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-f4700ba7.js">
-	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-7d16a412.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/editor.svelte-39541f28.js">
 	<link rel="modulepreload" href="/_app/immutable/chunks/Icon-96da96a2.js">
 	</head>
 	<body>
 		<div class="flex flex-col p-4 gap-4 h-screen">
 
 
-<h3 class="btn flex flex-row gap-2 items-center capitalize relative" style="height: 44px;">
-	<span class="absolute left-0 right-0 text-center">yaziv</span>
-		<a class="absolute right-0 opacity-40 hover:opacity-100 hover:scale-105" href="https://raxys.app"><img class="w-11 thm-img" src="https://raw.githubusercontent.com/raxysstudios/raxys/main/src/lib/assets/icons/raxys-loop.png" alt="raxys"></a></h3>
+<div class="flex flex-row gap-4"><div class="flex flex-col gap-2"><textarea></textarea>
+		<textarea readonly></textarea></div>
+	<textarea></textarea>
+	<div class="btn"></div>
+	<div class="btn"></div></div>
 
-<div class="font-semibold capitalize flex flex-col gap-2 items-stretch text-center"></div>
 
-
-		<script type="module" data-sveltekit-hydrate="1y8niog">
+		<script type="module" data-sveltekit-hydrate="1f9l2b">
 		import { start } from "/_app/immutable/start-3194b8dc.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1y8niog"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1f9l2b"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -38,9 +37,9 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				nodes: [0, 3],
+				nodes: [0, 2],
 				params: {},
-				routeId: ""
+				routeId: "editor"
 			}
 		});
 	</script></div>
