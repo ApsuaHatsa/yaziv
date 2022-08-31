@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-3b4a7491.js",
+    "file": "immutable/start-a03c40a8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -35,23 +35,23 @@
     ]
   },
   "src/routes/editor.svelte": {
-    "file": "immutable/pages/editor.svelte-39541f28.js",
+    "file": "immutable/pages/editor.svelte-7139c75c.js",
     "src": "src/routes/editor.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-ed81f732.js",
-      "_Icon-96da96a2.js"
+      "_Icon-59fccba4.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-e79e101c.js",
+    "file": "immutable/pages/index.svelte-35156c16.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-ed81f732.js",
-      "_Icon-96da96a2.js"
+      "_Icon-59fccba4.js"
     ],
     "css": [
       "immutable/assets/index-7d0040fd.css"
@@ -60,8 +60,8 @@
   "_index-ed81f732.js": {
     "file": "immutable/chunks/index-ed81f732.js"
   },
-  "_Icon-96da96a2.js": {
-    "file": "immutable/chunks/Icon-96da96a2.js",
+  "_Icon-59fccba4.js": {
+    "file": "immutable/chunks/Icon-59fccba4.js",
     "imports": [
       "_index-ed81f732.js"
     ]
